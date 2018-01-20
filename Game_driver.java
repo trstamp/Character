@@ -23,11 +23,11 @@ public class Game_driver {
 	String weap = sc.next();
 	a.setWeapon(weap);
 	
-	System.out.println(a.getGender());
-	System.out.println(a.getArmor());
-	System.out.println(a.getWeapon());
-	System.out.println(a.getAgility());
-	System.out.println(a.getDefense());
+	System.out.println("Gender : " + a.getGender());
+	System.out.println("Armor : " + a.getArmor());
+	System.out.println("Weapon : " + a.getWeapon());
+	System.out.println("Agility : " + a.getAgility());
+	System.out.println("Defense : " + a.getDefense());
 	
 	
 	
