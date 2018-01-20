@@ -8,6 +8,7 @@ public class Character
 	private String gender;
 	private String armor;
 	private String weapon;
+	PrintWriter outputFile = new PrintWriter();
 	
 	public void setGender(String gen)
 	{	
