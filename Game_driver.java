@@ -1,13 +1,15 @@
 package d141;
 import java.util.Scanner;
+import java.io.PrintWriter;
 
 public class Game_driver {
 	
-
+	
 	static Character a = new Character();
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-
+		PrintWriter outputFile = new PrintWriter("Name.txt")
+			
 	System.out.println("Hello, Welcome to the Game\nIf you have a Character already made press 1\nIf you want to make a new Character press 2");
 	//this is the printwriter option should go
 	
